@@ -1,18 +1,1 @@
-Insegnamento di "Analisi dei dati (Data mining)"
-Prova d'esame del 25 gennaio 2021 - parte pratica
-
-Uno studio medico sui pazienti affetti da morbo di Parkinson ha raccolto dati da 57 pazienti e 15 pazienti di controllo. 
-In particolare, è stato chiesto a ciascun soggetto di disegnare su un tablet due volte una spirale di Archimede seguendo il tracciato già presente sullo sfondo. Nel primo caso, il tracciato di sfondo rimaneva fisso, mentre nel secondo caso questo lentamente lampeggiava.
-
-Per memorizzare in un file ciascuna spirale disegnata dai soggetti l'immagine (lo schermo del tablet) è stata suddivisa in 64x64 pixels e per ciascun pixel è stato registrato il colore dicotomizzato in due modalità (0=bianco; 1=nero). Ogni pixel viene indicizzato con il numero di riga e quello di colonna.
-Poiché le spirali disegnate rimanevano tutte in un'area centrale dello schermo del tablet, i pixels presenti ai bordi delle figure sono tutti bianchi (0), e quindi sono stati salvati solo il colore dei pixels delle righe dalla 17 alla 45 e delle colonne dalla 23 alla 53, per un totale di 1003 pixels.
-
-Nel file spirale.csv sono presenti, per ciascuna spirale disegnata, l'identificativo del soggetto, una variabile indicatrice che indica se la spirale sullo sfondo era fissa o lampeggiante (ogni soggetto ha una rilevazione con spirale di sfondo fissa e una con spirale di fondo lampeggiante), l'indicazione (status) se il soggetto era affetto da morbo di Parkinson o se era un soggetto di controllo, e per ciascun pixel il colore osservato.
-
-E' di interesse capire se il disegno della spirale aiuta a identificare i malati di Parkinson, ed in particolare identificare le zone della spirale maggiormente informative a riguardo.
-
-
-
-
-
 
