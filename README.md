@@ -11,7 +11,7 @@ This project performs an image-based analysis using R to identify which pixels a
 
 Unlike deep learning approaches, I focus on interpretable models.
 
-- 🧪 Methods
+## Methods
 Two supervised learning models were applied:
 
 - LASSO-regularized logistic regression – for sparse, interpretable feature selection
@@ -23,4 +23,4 @@ Achieved strong classification performance, even with limited data
 🛠️ Requirements
 R ≥ 4.0
 
-Packages: glmnet, randomForest, dplyr
+Packages: glmnet, randomForest, dplyr, ranger
